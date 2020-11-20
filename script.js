@@ -28,6 +28,4 @@ addChar[5].append(newElem);
 addChar[5].append(chapters[56]);
 newElem.textContent = 'Глава 8: За пределами ES6';
 
-// const checkbody = document.querySelectorAll('body');
-// checkbody.setAttribute('style', 'background-image:url(./image/you-dont-know-js.jpg)');
-// console.log(checkbody);
+document.body.style.backgroundImage = "url('./image/you-dont-know-js.jpg')";
